@@ -6,7 +6,7 @@ import Container from "./components/Container/Container";
 import SearchBox from "./components/SearchBox/SearchBox";
 import Section from "./components/Section/Section";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchContacts } from "./redux/contactsOptions";
+import { fetchContacts } from "./redux/contactsOps";
 import { selectError, selectLoading } from "./redux/contactsSlice";
 import Loader from "./components/Loader/Loader";
 import { ErrorMessage } from "./components/ErrorMessage/ErrorMessage";

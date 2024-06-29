@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { selectContacts } from "../../redux/contactsSlice";
 
 import { nanoid } from "nanoid";
-import { addContact } from "../../redux/contactsOptions";
+import { addContact } from "../../redux/contactsOps";
 
 export const ContactForm = () => {
   const nameId = useId();
